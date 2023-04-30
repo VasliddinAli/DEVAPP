@@ -1026,7 +1026,12 @@ hr {
 .video_wrap .banner_image {
   overflow: hidden;
   position: relative;
+  height: 550px;
   background-image: linear-gradient(45deg, #301cab 0%, #4448d3 52%, #5774fa 100%);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .video_wrap .banner_image > img {
   opacity: 0.5;

@@ -37,7 +37,7 @@
                                         <th>Category</th>
                                         <th>Link</th>
                                         <th>Image</th>
-                                        <th>BTNS</th>
+                                        <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -47,7 +47,7 @@
                                         <td>{{ $item->name }}</td>
                                         <td>{{ $item->category }}</td>
                                         <td><a href="{{ $item->link }}" target="__blank">{{ $item->link }}</a></td>
-                                        <td><img src="{{ $item->image }}" width="50px"></td>
+                                        <td><img src="{{ asset($item->image) }}" width="50px"></td>
                                         <td class="d-flex">
                                             <a href="{{ route('edit_project', $item->id) }}" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
                                             <a href="{{ route('delete_project', $item->id) }}" class="btn btn-danger ml-2" onclick="return confirm('Are you delete? {{ $item->name }}')"><i class="fa-solid fa-trash"></i></a>
@@ -55,16 +55,6 @@
                                     </tr>
                                     @endforeach
                                 </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <th>ID</th>
-                                        <th>Name</th>
-                                        <th>Category</th>
-                                        <th>Link</th>
-                                        <th>Image</th>
-                                        <th>BTNS</th>
-                                    </tr>
-                                </tfoot>
                             </table>
                         </div>
                     </div>

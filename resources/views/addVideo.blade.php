@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <form method="POST" action="{{ route('add_client') }}" enctype="multipart/form-data">
+                        <form method="POST" action="{{ route('add_video') }}" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group">
                                 <label for="link">Video link</label>

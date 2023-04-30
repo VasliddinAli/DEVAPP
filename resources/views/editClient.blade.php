@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <img src="{{ asset($client->image) }}" alt="{{ $client->image }}" width="400px">
+                        <img src="{{ asset($client->image) }}" alt="{{ asset($client->image) }}" width="400px">
                     </div>
                 </div>
             </div>

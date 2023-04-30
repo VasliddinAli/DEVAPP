@@ -10,27 +10,29 @@
 	<link rel="shortcut icon" href="{{ asset('assets/imgs/logosvg.svg') }}">
 
 	<!-- css include -->
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}">
 
 	<!-- icons - css include -->
-	<link rel="stylesheet" type="text/css" href="assets/css/icomoon.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/icomoon.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/themify-icons.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.css') }}">
 
 	<!-- slider & carousel - css include -->
-	<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/owl.carousel.min.css' }}">
+	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/owl.theme.default.min.css' }}">
 
 	<!-- animation - css include -->
 	<!-- <link rel="stylesheet" type="text/css" href="assets/css/aos.css"> -->
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/splitting.css">
+	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/animate.css' }}">
+	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/splitting.css' }}">
 
 	<!-- magnific popup - css include -->
-	<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/magnific-popup.css' }}">
 
 	<!-- custom - css include -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/style.css' }}">
+
+	<meta name="google-site-verification" content="jkLpJhrQV_w8SVgi1WhMDSeK_K0tdg4df0nPISDcmUk" />
 
 </head>
 
@@ -60,8 +62,8 @@
 					<div class="col-lg-2">
 						<div class="brand_logo">
 							<a href="#" class="brand_link">
-								<img src="assets/imgs/logosvg.svg" alt="logo_not_found">
-								<img src="assets/imgs/logosvg.svg" alt="logo_not_found">
+								<img src="{{ asset('assets/imgs/logosvg.svg') }}" alt="logo_not_found">
+								<img src="{{ asset('assets/imgs/logosvg.svg') }}" alt="logo_not_found">
 							</a>
 							<button type="button" class="menu_btn">
 								<i class="fal fa-bars"></i>
@@ -105,7 +107,7 @@
 
 				<div class="brand_logo mb-50 clearfix">
 					<a href="#" class="brand_link">
-						<img src="assets/imgs/logosvg.svg" alt="logo_not_found">
+						<img src="{{ asset('assets/imgs/logosvg.svg') }}" alt="logo_not_found">
 					</a>
 					<span class="close_btn"><i class="fal fa-times"></i></span>
 				</div>
@@ -137,8 +139,8 @@
 				<div class="contact_info ul_li_block mb-50">
 					<h3 class="item_title">Aloqa uchun</h3>
 					<ul class="clearfix">
-						<li><a href="#!"><span>Elektron pochta:</span> makro@gmail.com</a></li>
-						<li><a href="#!"><span>Telefon:</span> +998 90 581 72 01</a></li>
+						<li><a href="mailto:javohir.fergana@gmail.com"><span>Elektron pochta:</span> javohir.fergana@gmail.com</a></li>
+						<li><a href="tel:+998905817201"><span>Telefon:</span> +998 90 581 72 01</a></li>
 					</ul>
 				</div>
 
@@ -151,37 +153,6 @@
 						<li><a href="https://www.linkedin.com/company/devapp-uzbekistan/about"><i class="icon-linkedin"></i></a></li>
 					</ul>
 				</div>
-
-				<!-- <div class="app_content mb-80 clearfix">
-					<h2 class="item_title">support & downloads</h2>
-					<p class="mb-30">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						the industry's standard dummy text.
-					</p>
-					<div class="btns_group ul_li clearfix">
-						<ul class="clearfix">
-							<li><a href="#!" class="btn bg_default_blue"><i class="fab fa-apple mr-1"></i> App Store</a>
-							</li>
-							<li>
-								<a href="#!" class="btn btn_border"><i class="fab fa-google-play mr-1"></i> Google
-									Play</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="copyright_text text-center mb-15">
-					<p class="mb-0">
-						Copyright © 2020 Desing by <a href="https://droitthemes.com/" class="author_link">DroitThemes</a>
-					</p>
-				</div>
-
-				<div class="footer_menu ul_li_center text-center">
-					<ul class="clearfix">
-						<li><a href="#!">Terms of Use</a></li>
-						<li><a href="#!">Privacy Policy</a></li>
-					</ul>
-				</div> -->
 
 			</div>
 			<div class="overlay"></div>
@@ -217,12 +188,10 @@
 								<div class="btns_group ul_li" data-aos="fade-up" data-aos-delay="300">
 									<ul class="clearfix">
 										<li>
-											@foreach($videos as $item)
-											<a class="popup_video" href="{{ $item->link }}">
+											<a class="popup_video" href="https://www.youtube.com/watch?v=zXYSM1hWWW4">
 												<span class="icon"><i class="icon-play"></i></span>
 												<small>Tomosha qiling</small>
 											</a>
-											@endforeach
 										</li>
 									</ul>
 								</div>
@@ -232,18 +201,18 @@
 				</div>
 
 				<div class="banner_image" data-aos="fade-left" data-aos-delay="100">
-					<img src="assets/imgs/img_1.png" alt="image_not_found">
+					<img src="{{ asset('assets/imgs/img_1.png') }}" alt="image_not_found">
 				</div>
 
 				<div class="deco_image shape_1" data-aos="fade-left" data-aos-delay="300">
-					<img src="assets/images/banner/04_digital_agency/shape_2.png" alt="shape_not_found">
+					<img src="{{ asset('assets/images/banner/04_digital_agency/shape_2.png') }}" alt="shape_not_found">
 				</div>
 				<div class="deco_image shape_2" data-aos="fade-left" data-aos-delay="500">
-					<img src="assets/images/banner/04_digital_agency/shape_3.png" alt="shape_not_found">
+					<img src="{{ asset('assets/images/banner/04_digital_agency/shape_3.png') }}" alt="shape_not_found">
 				</div>
 
 				<div class="deco_image shape_3" data-aos="fade-up" data-aos-delay="100">
-					<img src="assets/images/shapes/shape_44.png" alt="shape_not_found" data-parallax='{"y" : 80}'>
+					<img src="{{ asset('assets/images/shapes/shape_44.png') }}" alt="shape_not_found" data-parallax='{"y" : 80}'>
 				</div>
 
 			</section>
@@ -295,7 +264,7 @@
 					<div class="row justify-content-lg-between justify-content-md-center">
 						<div class="col-lg-4 col-md-7">
 							<div class="service_image" data-aos="fade-up" data-aos-delay="300">
-								<img src="assets/imgs/img_1 (1).png" alt="image_not_found">
+								<img src="{{ asset('assets/imgs/img_1 (1).png') }}" alt="image_not_found">
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6">
@@ -358,7 +327,7 @@
 						<h3 class="sub_title mb-15 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<slan class="c_slide_in_wrap3">
-									Platformaga kirish
+									Bizning platformamiz
 								</slan>
 							</span>
 						</h3>
@@ -377,7 +346,7 @@
 								<div data-tilt>
 									<div class="banner_image" data-aos="fade-up" data-aos-delay="300">
 										@foreach($videos as $item)
-										<img src="{{ $item->image }}" alt="image_not_found">
+										<img src="{{ asset('$item->image') }}" alt="image_not_found">
 										<a class="popup_video" href="{{ $item->link }}"><i class="icon-play"></i></a>
 										@endforeach
 									</div>
@@ -386,23 +355,23 @@
 						</div>
 
 						<div class="deco_image shadow_image" data-aos="fade-up" data-aos-delay="400">
-							<img src="assets/images/shapes/shape_15.png" alt="image_not_found">
+							<img src="{{ asset('assets/images/shapes/shape_15.png') }}" alt="image_not_found">
 						</div>
 
 						<div class="deco_image dot_image" data-aos="fade-up" data-aos-delay="500">
-							<img src="assets/images/shapes/shape_16.png" alt="image_not_found">
+							<img src="{{ asset('assets/images/shapes/shape_16.png') }}" alt="image_not_found">
 						</div>
 						<div class="deco_image leaf_image_1" data-aos="fade-left" data-aos-delay="600">
-							<img src="assets/images/shapes/img_3.png" alt="image_not_found">
+							<img src="{{ asset('assets/images/shapes/img_3.png') }}" alt="image_not_found">
 						</div>
 						<div class="deco_image leaf_image_2" data-aos="fade-right" data-aos-delay="600">
-							<img src="assets/images/shapes/img_6.png" alt="image_not_found">
+							<img src="{{ asset('assets/images/shapes/img_6.png') }}" alt="image_not_found">
 						</div>
 					</div>
 				</div>
 
 				<div class="deco_image dot_image_2" data-aos="fade-up" data-aos-delay="300">
-					<img src="assets/images/shapes/shape_25.png" alt="image_not_found" data-parallax='{"y" : 90}'>
+					<img src="{{ asset('assets/images/shapes/shape_25.png') }}" alt="image_not_found" data-parallax='{"y" : 90}'>
 				</div>
 			</section>
 			<!-- Video - end ================================================== -->
@@ -434,10 +403,10 @@
 								<div class="item_icon icon_purple">
 									<i class="icon-setting"></i>
 									<span class="icon_deco icon_deco_1">
-										<img src="assets/images/shapes/shape_19.png" alt="shape_not_found">
+										<img src="{{ asset('assets/images/shapes/shape_19.png') }}" alt="shape_not_found">
 									</span>
 									<span class="icon_deco icon_deco_2">
-										<img src="assets/images/shapes/shape_5.png" alt="shape_not_found">
+										<img src="{{ asset('assets/images/shapes/shape_5.png') }}" alt="shape_not_found">
 									</span>
 								</div>
 								<h3 class="item_title">Boshqaruv</h3>
@@ -452,10 +421,10 @@
 								<div class="item_icon icon_orange">
 									<i class="icon-tube"></i>
 									<span class="icon_deco icon_deco_1">
-										<img src="assets/images/shapes/shape_19.png" alt="shape_not_found">
+										<img src="{{ asset('assets/images/shapes/shape_19.png') }}" alt="shape_not_found">
 									</span>
 									<span class="icon_deco icon_deco_2">
-										<img src="assets/images/shapes/shape_5.png" alt="shape_not_found">
+										<img src="{{ asset('assets/images/shapes/shape_5.png') }}" alt="shape_not_found">
 									</span>
 								</div>
 								<h3 class="item_title">Qo'llab-quvvatlash</h3>
@@ -470,10 +439,10 @@
 								<div class="item_icon icon_green">
 									<i class="icon-ring"></i>
 									<span class="icon_deco icon_deco_1">
-										<img src="assets/images/shapes/shape_19.png" alt="shape_not_found">
+										<img src="{{ asset('assets/images/shapes/shape_19.png') }}" alt="shape_not_found">
 									</span>
 									<span class="icon_deco icon_deco_2">
-										<img src="assets/images/shapes/shape_5.png" alt="shape_not_found">
+										<img src="{{ asset('assets/images/shapes/shape_5.png') }}" alt="shape_not_found">
 									</span>
 								</div>
 								<h3 class="item_title">Hamkorlik</h3>
@@ -528,7 +497,7 @@
 						<div class="element-item {{ $project->category }}" data-category="ios">
 							<div class="casestudy_grid" data-aos="fade-up" data-aos-delay="500">
 								<a class="item_image" href="{{ $project->link }}" target="_blank">
-									<img src="{{ $project->image }}" alt="image_not_found">
+									<img src="{{ asset($project->image) }}" alt="image_not_found">
 								</a>
 								<h3 class="item_title"><a href="{{ $project->link }}" target="_blank">{{ $project->name }}</a></h3>
 								<div class="item_category ul_li">
@@ -543,10 +512,10 @@
 				</div>
 
 				<div class="deco_image shape_1" data-aos="fade-up" data-aos-delay="100">
-					<img src="assets/images/shapes/shape_45.png" alt="shape_not_found" data-parallax='{"y" : 80}'>
+					<img src="{{ asset('assets/images/shapes/shape_45.png') }}" alt="shape_not_found" data-parallax='{"y" : 80}'>
 				</div>
 				<div class="deco_image shape_2" data-aos="fade-up" data-aos-delay="100">
-					<img src="assets/images/shapes/shape_44.png" alt="shape_not_found" data-parallax='{"y" : 80}'>
+					<img src="{{ asset('assets/images/shapes/shape_44.png') }}" alt="shape_not_found" data-parallax='{"y" : 80}'>
 				</div>
 			</section>
 			<!-- Completed Projects - end
@@ -618,13 +587,13 @@
 							<div class="widget about_content">
 								<div class="brand_logo mb-30">
 									<a href="#" class="brand_link">
-										<img src="assets/imgs/logosvg.svg" alt="logo_not_found">
+										<img src="{{ asset('assets/imgs/logosvg.svg') }}" alt="logo_not_found">
 									</a>
 								</div>
 								<div class="contact_info ul_li_block mb-30">
 									<ul class="clearfix">
-										<li>Elektron pochta: <a href="#!">makro@gmail.com</a></li>
-										<li>Telefon: <a href="#!">+998 90 581 72 01</a></li>
+										<li>Elektron pochta: <a href="mailto:javohir.fergana@gmail.com">javohir.fergana@gmail.com</a></li>
+										<li>Telefon: <a href="tel:+998905817201">+998 90 581 72 01</a></li>
 									</ul>
 								</div>
 								<div class="form_item mb-0">
@@ -664,10 +633,10 @@
 					</div>
 
 					<div class="deco_image deco_image_1">
-						<img src="assets/images/shapes/img_7.png" alt="spahe_not_found">
+						<img src="{{ asset('assets/images/shapes/img_7.png') }}" alt="spahe_not_found">
 					</div>
 					<div class="deco_image deco_image_2">
-						<img src="assets/images/shapes/img_8.png" alt="spahe_not_found">
+						<img src="{{ asset('assets/images/shapes/img_8.png') }}" alt="spahe_not_found">
 					</div>
 				</div>
 			</div>
