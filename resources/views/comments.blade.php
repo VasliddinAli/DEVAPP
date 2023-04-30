@@ -48,7 +48,7 @@
                                     <td>{{ $item->name }}</td>
                                     <td>{{ $item->job }}</td>
                                     <td>{{ $item->comment }}</td>
-                                    <td><img src="{{ asset('$item->image') }}" width="50px"></td>
+                                    <td><img src="{{ asset($item->image) }}" width="50px"></td>
                                     <td class="d-flex">
                                         <a href="{{ route('edit_comment', $item->id) }}" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
                                         <a href="{{ route('delete_comment', $item->id) }}" class="btn btn-danger ml-2" onclick="return confirm('Are you delete? {{ $item->name }}')"><i class="fa-solid fa-trash"></i></a>

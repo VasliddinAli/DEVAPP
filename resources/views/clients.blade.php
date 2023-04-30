@@ -44,7 +44,7 @@
                                 <tr>
                                     <td>{{ $client->id }}</td>
                                     <td><a href="{{ $client->link }}" target="_blank">{{ $client->link }}</a></td>
-                                    <td><img src="{{ asset('$client->image') }}" alt="{{ asset('$client->image') }}" width="200px"></td>
+                                    <td><img src="{{ asset($client->image) }}" alt="{{ $client->image }}" width="200px"></td>
                                     <td class="d-flex">
                                         <a href="{{ route('edit_client', $client->id) }}" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a>
                                         <a href="{{ route('delete_client', $client->id) }}" class="btn btn-danger ml-2" onclick="return confirm('Are you delete? Image')"><i class="fa-solid fa-trash"></i></a>
