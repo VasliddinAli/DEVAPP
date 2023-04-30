@@ -22,7 +22,6 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
 
 	<!-- animation - css include -->
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/aos.css"> -->
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/animate.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/splitting.css') }}">
 
@@ -38,11 +37,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
 
 	<meta name="google-site-verification" content="jkLpJhrQV_w8SVgi1WhMDSeK_K0tdg4df0nPISDcmUk" />
-	<style>
-		*{
-			font-family: 'Nunito', sans-serif;
-		}
-	</style>
 
 </head>
 
@@ -724,7 +718,6 @@
 	<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
 
 	<!-- animation - jquery include -->
-	<!-- <script src="assets/js/aos.js"></script> -->
 	<script src="{{ asset('assets/js/splitting.js') }}"></script>
 
 	<!-- magnific popup - jquery include -->
