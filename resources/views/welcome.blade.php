@@ -32,6 +32,9 @@
 	<!-- custom - css include -->
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 
+	<!-- fonts link -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+
 	<meta name="google-site-verification" content="jkLpJhrQV_w8SVgi1WhMDSeK_K0tdg4df0nPISDcmUk" />
 
 </head>
