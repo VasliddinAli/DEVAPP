@@ -442,10 +442,10 @@
     loop: true,
     nav: true,
     margin: 30,
-    // autoplay:true,
+    autoplay:true,
     smartSpeed: 1000,
     autoplayTimeout: 6000,
-    autoplayHoverPause: false
+    autoplayHoverPause: true
   });
 
   $('#testimonial_carousel_2').owlCarousel({

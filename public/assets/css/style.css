@@ -1,102 +1,7 @@
 @charset "UTF-8";
-/* table of content - start
-==================================================================================================== */
-/*
 
-Project Name 	:  Makro HTML Template
-File 			    :  CSS Base
-Version 		  :  1.0.0
-Last change 	:  22 April 2020
-Author 			  :  DroitThemes - by DroitLab
-Developer:		:  Rony
-
-==================================================
-
-# Default Settings
-  01 - fonts
-  02 - global area
-
-# Default sections
-  03 - header section
-  04 - footer section
-
-  05 - breadcrumb section
-  06 - sidebar section
-  07 - partners section
-  08 - testimonial section
-  09 - newsletter section
-  10 - promotion section
-  11 - seo section
-  12 - intregation section
-
-  13 - about page
-  14 - services pages
-  15 - team page
-  16 - pricing page
-  17 - casestudy page
-  18 - shop pages
-  19 - all details pages
-  20 - process page
-  21 - job pages
-  22 - blog pages
-  23 - faq
-  24 - contact page
-  25 - error page
-  26 - register pages
-
-  27 - home pages
-
-*/
-/* table of content - end
-==================================================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
-
 /* 01 - fonts - start
-==================================================================================================== */
-@font-face {
-  font-family: "Sofia Pro Extra Light";
-  src: url("assets/fonts/sofia_pro/SofiaProExtraLight.woff2") format("woff2"), url("assets/fonts/sofia_pro/SofiaProExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Sofia Pro Light";
-  src: url("assets/fonts/sofia_pro/SofiaProLight.woff2") format("woff2"), url("assets/fonts/sofia_pro/SofiaProLight.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Sofia Pro Medium";
-  src: url("assets/fonts/sofia_pro/SofiaProMedium.woff2") format("woff2"), url("assets/fonts/sofia_pro/SofiaProMedium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Sofia Pro SemiBold";
-  src: url("assets/fonts/sofia_pro/SofiaProSemiBold.woff2") format("woff2"), url("assets/fonts/sofia_pro/SofiaProSemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Sofia Pro Bold";
-  src: url("assets/fonts/sofia_pro/SofiaProBold.woff2") format("woff2"), url("assets/fonts/sofia_pro/SofiaProBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Sofia Pro";
-  src: url("http://db.onlinewebfonts.com/t/9e00143409affcb46a1ae58634aa64be.eot");
-  /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/9e00143409affcb46a1ae58634aa64be.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/9e00143409affcb46a1ae58634aa64be.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/9e00143409affcb46a1ae58634aa64be.woff") format("woff"), url("http://db.onlinewebfonts.com/t/9e00143409affcb46a1ae58634aa64be.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/9e00143409affcb46a1ae58634aa64be.svg#Sofia Pro") format("svg");
-  /* iOS 4.1- */
-}
-
-/* 01 - fonts - end
 ==================================================================================================== */
 /* 02 - global area - start
 ==================================================================================================== */
@@ -113,7 +18,6 @@ body {
   line-height: 1.867;
   font-style: normal;
   color: #6a7c92;
-  font-family: "Sofia Pro";
   background-color: #ffffff;
   text-rendering: optimizelegibility;
   -moz-osx-font-smoothing: grayscale;
@@ -157,7 +61,6 @@ button {
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
-  font-family: "Sofia Pro";
 }
 
 a:hover,
@@ -196,7 +99,6 @@ h6 {
   font-weight: 700;
   line-height: 1.1;
   color: #051441;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 strong,
@@ -204,7 +106,6 @@ span,
 small,
 label,
 i {
-  font-family: "Sofia Pro";
 }
 
 hr {
@@ -325,7 +226,6 @@ hr {
   position: absolute;
   color: #6a7c92;
   vertical-align: middle;
-  font-family: "themify";
   transform: translateY(-50%);
 }
 
@@ -413,16 +313,13 @@ hr {
   background: #c7d0fb;
   transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #4154f1;
 }
-
 .owl-theme .owl-dots .owl-dot.active span {
   transform: scale(1.4);
   background: #4154f1;
 }
-
 .owl-theme .owl-nav .owl-next,
 .owl-theme .owl-nav .owl-prev {
   margin: 0px;
@@ -434,12 +331,10 @@ hr {
   border-radius: 0%;
   position: relative;
 }
-
-.owl-theme .owl-nav .owl-next>span,
-.owl-theme .owl-nav .owl-prev>span {
+.owl-theme .owl-nav .owl-next > span,
+.owl-theme .owl-nav .owl-prev > span {
   display: none;
 }
-
 .owl-theme .owl-nav .owl-next:before,
 .owl-theme .owl-nav .owl-prev:before {
   top: 0px;
@@ -457,58 +352,46 @@ hr {
   transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   font-family: "Font Awesome 5 Pro";
 }
-
 .owl-theme .owl-nav .owl-next:hover,
 .owl-theme .owl-nav .owl-prev:hover {
   background: none;
 }
-
 .owl-theme .owl-nav .owl-next:hover:before,
 .owl-theme .owl-nav .owl-prev:hover:before {
   color: #ffffff;
   background: #4154f1;
   border-color: #4154f1;
 }
-
 .owl-theme .owl-nav .owl-prev {
   margin-right: 10px;
 }
-
 .owl-theme .owl-nav .owl-prev:before {
   content: "";
 }
-
 .owl-theme .owl-nav .owl-next:before {
   content: "";
 }
-
 .owl-theme.arrow_right_left .owl-nav {
   margin-top: 0px;
 }
-
 .owl-theme.arrow_right_left .owl-nav .owl-next,
 .owl-theme.arrow_right_left .owl-nav .owl-prev {
   top: 50%;
   position: absolute;
   transform: translateY(-50%);
 }
-
 .owl-theme.arrow_right_left .owl-nav .owl-prev {
   left: -100px;
 }
-
 .owl-theme.arrow_right_left .owl-nav .owl-prev:before {
   content: "";
 }
-
 .owl-theme.arrow_right_left .owl-nav .owl-next {
   right: -100px;
 }
-
 .owl-theme.arrow_right_left .owl-nav .owl-next:before {
   content: "";
 }
-
 .owl-theme.arrow_top_right .owl-nav {
   top: -110px;
   right: 15px;
@@ -825,7 +708,6 @@ hr {
   position: relative;
   border-radius: 45px;
   transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  font-family: "Sofia Pro SemiBold";
 }
 
 .btn:before {
@@ -968,7 +850,6 @@ hr {
   line-height: 1;
   font-size: 18px;
   color: #051441;
-  font-family: "Sofia Pro SemiBold";
 }
 
 .btn_text i {
@@ -1007,7 +888,6 @@ hr {
 }
 
 .section_title .title_text strong {
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .section_title .title_text .text_brinjal {
@@ -1801,7 +1681,6 @@ button {
   line-height: 1;
   font-size: 16px;
   color: #051441;
-  font-family: "Sofia Pro Medium";
 }
 
 .header_section .main_menu>ul>li:hover>a,
@@ -1942,7 +1821,6 @@ button {
   display: block;
   font-size: 15px;
   padding: 6px 30px;
-  font-family: "Sofia Pro";
   color: #051441;
 }
 
@@ -1969,7 +1847,6 @@ button {
   font-size: 10px;
   content: "";
   position: absolute;
-  font-family: "themify";
   transform: translateY(-55%);
 }
 
@@ -2045,8 +1922,6 @@ button {
   font-size: 15px;
   line-height: 1.1;
   color: #051441;
-  font-family: "Sofia Pro";
-  font-family: "Sofia Pro Bold", sans-serif;
   transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -2212,7 +2087,6 @@ button {
   font-weight: 400;
   position: absolute;
   transform: translateY(-60%);
-  font-family: "Font Awesome 5 Pro";
 }
 
 .sidebar-menu-wrapper .mobile_menu .menu_list>ul li.menu_item_has_child .submenu {
@@ -2470,7 +2344,6 @@ button {
 .footer_section .widget_title {
   font-size: 20px;
   color: #051441;
-  font-family: "Sofia Pro SemiBold";
 }
 
 .footer_section .useful_links>ul>li {
@@ -2730,7 +2603,6 @@ button {
   font-size: 18px;
   max-width: 540px;
   display: inline-block;
-  font-family: "Sofia Pro";
 }
 
 .breadcrumb_section .breadcrumb_content .breadcrumb_nav>ul>li {
@@ -2746,7 +2618,6 @@ button {
   font-size: 10px;
   content: "";
   position: absolute;
-  font-family: "themify";
   transform: translateY(-60%);
 }
 
@@ -4642,7 +4513,6 @@ button {
   font-size: 20px;
   line-height: 1.4;
   color: #051441;
-  font-family: "Sofia Pro SemiBold";
 }
 
 .service_section .tabs_nav>ul>li>a:hover,
@@ -4674,7 +4544,6 @@ button {
   margin-bottom: 15px;
   color: #051441;
   transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  font-family: "Sofia Pro SemiBold";
 }
 
 .service_section .tabs_nav_2>ul>li a span {
@@ -4859,7 +4728,6 @@ button {
 .service_boxed_1 .item_title>a {
   font-size: 24px;
   color: #051441;
-  font-family: "Sofia Pro Bold";
 }
 
 .service_boxed_1:hover .item_title>a {
@@ -4947,7 +4815,6 @@ button {
   font-size: 24px;
   letter-spacing: -0.5px;
   color: #051441;
-  font-family: "Sofia Pro Bold";
 }
 
 .service_boxed_2:hover .item_title>a {
@@ -5121,7 +4988,6 @@ button {
 .service_primary .item_title>a {
   font-size: 24px;
   color: #051441;
-  font-family: "Sofia Pro Bold";
 }
 
 .service_primary:hover .item_title>a {
@@ -5247,7 +5113,6 @@ button {
 .service_primary_2 .item_title {
   font-size: 24px;
   margin-bottom: 25px;
-  font-family: "Sofia Pro SemiBold";
 }
 
 .service_primary_2 p {
@@ -5260,7 +5125,6 @@ button {
   position: relative;
   display: inline-block;
   color: #051441;
-  font-family: "Sofia Pro SemiBold";
 }
 
 .service_primary_2 .details_btn i {
@@ -5471,7 +5335,6 @@ button {
   font-size: 48px;
   display: inline-block;
   color: #051441;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .pricing_plan_1 .pricing_header .price_text sup {
@@ -5484,7 +5347,6 @@ button {
   line-height: 1;
   font-size: 16px;
   color: #051441;
-  font-family: "Sofia Pro SemiBold";
 }
 
 .pricing_plan_1 .pricing_header .price_text sub {
@@ -5643,7 +5505,6 @@ button {
   font-size: 48px;
   display: inline-block;
   color: #051441;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .pricing_plan_2 .pricing_header .price_text sup {
@@ -5656,7 +5517,6 @@ button {
   line-height: 1;
   font-size: 16px;
   color: #051441;
-  font-family: "Sofia Pro SemiBold";
 }
 
 .pricing_plan_2 .pricing_header .price_text sub {
@@ -5711,7 +5571,6 @@ button {
   font-size: 48px;
   margin-bottom: 10px;
   color: #051441;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .pricing_plan_3 .title_text {
@@ -5989,7 +5848,6 @@ button {
   display: block;
   font-size: 24px;
   color: #051441;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .casestudy_grid:hover .item_title>a {
@@ -6455,7 +6313,6 @@ button {
   display: none;
   font-size: 14px;
   color: #051441;
-  font-family: "Sofia Pro Medium";
 }
 
 .cart_section .table_wrap .product_quantity {
@@ -6481,7 +6338,6 @@ button {
 .cart_section .table_wrap .item_title {
   font-size: 16px;
   margin-bottom: 0px;
-  font-family: "Sofia Pro Light";
 }
 
 .cart_section .table_wrap .item_availability {
@@ -6496,7 +6352,6 @@ button {
   left: 0px;
   font-size: 14px;
   position: absolute;
-  font-family: "themify";
 }
 
 .cart_section .table_wrap .item_availability.in_stock {
@@ -6850,7 +6705,6 @@ button {
   font-weight: 400;
   position: absolute;
   color: #4154f1;
-  font-family: "Font Awesome 5 Pro";
 }
 
 .details_section .share_links_rounded span {
@@ -6997,7 +6851,6 @@ button {
   font-weight: 400;
   position: absolute;
   color: #4154f1;
-  font-family: "Font Awesome 5 Pro";
 }
 
 .job_details_info {
@@ -7048,7 +6901,6 @@ button {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 5px;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .job_details_info>ul>li .item_contact p {
@@ -7396,7 +7248,6 @@ button {
   left: 0px;
   font-size: 14px;
   position: absolute;
-  font-family: "themify";
 }
 
 .shop_details .item_availability.in_stock {
@@ -7524,13 +7375,11 @@ button {
 
 .review_section .comment_item .comment_content .admin_name {
   font-size: 20px;
-  font-family: "Sofia Pro Medium";
 }
 
 .review_section .comment_item .comment_content .admin_name span {
   font-size: 16px;
   color: #6a7c92;
-  font-family: "Sofia Pro Light";
 }
 
 .review_section .review_form .form_item textarea {
@@ -7652,7 +7501,6 @@ button {
   margin-bottom: 45px;
   letter-spacing: 5px;
   display: inline-block;
-  font-family: "Sofia Pro Bold", sans-serif;
   text-shadow: -5px 5px 0px #eceefe;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #cdcecf;
@@ -7766,7 +7614,6 @@ button {
 .job_item .item_title>a {
   font-size: 20px;
   color: #051441;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .job_item:hover .item_title>a {
@@ -7969,7 +7816,6 @@ button {
 .blog_grid .item_title>a {
   font-size: 30px;
   color: #303030;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .blog_grid:hover .item_title>a {
@@ -7983,7 +7829,6 @@ button {
 .blog_grid .details_btn {
   font-size: 18px;
   color: #303030;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .blog_grid .details_btn i {
@@ -8057,7 +7902,6 @@ button {
   font-size: 20px;
   line-height: 1.5;
   color: #051441;
-  font-family: "Sofia Pro SemiBold";
 }
 
 .blog_quote:hover p a {
@@ -8104,7 +7948,6 @@ button {
   display: block;
   font-size: 18px;
   color: #051441;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .blog_small:hover .item_title>a {
@@ -8204,7 +8047,6 @@ button {
   position: relative;
   padding-right: 20px;
   color: #051441;
-  font-family: "Sofia Pro Bold", sans-serif;
 }
 
 .faq_section .faq_accordion .card .card-header>a:before {
@@ -8214,7 +8056,6 @@ button {
   font-size: 14px;
   content: "";
   position: absolute;
-  font-family: "themify";
   transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -8306,7 +8147,6 @@ button {
   font-size: 44px;
   margin-bottom: 30px;
   letter-spacing: 2.4px;
-  font-family: "Sofia Pro Light";
 }
 
 .error_section .error_content p {
@@ -8381,7 +8221,6 @@ button {
   content: "";
   position: absolute;
   color: #4154f1;
-  font-family: "themify";
   transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transform: translate(-50%, -50%);
 }
@@ -8444,12 +8283,10 @@ button {
   font-size: 32px;
   line-height: 1.2;
   margin-bottom: 40px;
-  font-family: "Sofia Pro Extra Light";
 }
 
 .register_section .signup_wrap .info_wrap h3 strong {
   color: #051441;
-  font-family: "Sofia Pro Bold";
 }
 
 .register_section .signup_wrap .info_list>ul>li {
@@ -8469,7 +8306,6 @@ button {
   content: "";
   position: absolute;
   color: #4154f1;
-  font-family: "themify";
 }
 
 .register_section .signup_wrap .signup_form {
@@ -8525,7 +8361,6 @@ button {
   font-size: 60px;
   position: relative;
   letter-spacing: -0.9px;
-  font-family: "Sofia Pro SemiBold";
 }
 
 .banner_section .banner_content p {
@@ -9560,7 +9395,6 @@ button {
 }
 
 .digital_marketing_banner .banner_content .title_text {
-  font-family: "Sofia Pro SemiBold";
 }
 
 .digital_marketing_banner .banner_image {
@@ -10053,11 +9887,9 @@ button {
 
 .hr_management_banner .banner_content .title_text span {
   font-size: 56px;
-  font-family: "Sofia Pro Extra Light";
 }
 
 .hr_management_banner .banner_content .title_text span strong {
-  font-family: "Sofia Pro SemiBold";
 }
 
 .hr_management_banner .banner_content .popup_video .icon {
@@ -10506,11 +10338,9 @@ button {
 }
 
 .project_management_banner .banner_content .title_text span {
-  font-family: "Sofia Pro Extra Light";
 }
 
 .project_management_banner .banner_content .title_text strong {
-  font-family: "Sofia Pro SemiBold";
 }
 
 .project_management_banner .banner_content p {
@@ -10652,14 +10482,12 @@ button {
 .saas_banner .banner_content .title_text {
   font-size: 44px;
   margin-bottom: 20px;
-  font-family: "Sofia Pro Extra Light";
 }
 
 .saas_banner .banner_content .title_text strong {
   display: block;
   margin-top: 3px;
   letter-spacing: -0.8px;
-  font-family: "Sofia Pro Bold";
 }
 
 .saas_banner .banner_content p {
@@ -12727,7 +12555,6 @@ button {
   .hr_management_banner .banner_content .title_text span {
     display: block;
     font-size: 48px;
-    font-family: "Sofia Pro Extra Light";
   }
 
   .hr_management_banner .shape_4 {
