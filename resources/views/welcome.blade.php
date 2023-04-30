@@ -18,19 +18,19 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fontawesome-all.css') }}">
 
 	<!-- slider & carousel - css include -->
-	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/owl.carousel.min.css' }}">
-	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/owl.theme.default.min.css' }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
 
 	<!-- animation - css include -->
 	<!-- <link rel="stylesheet" type="text/css" href="assets/css/aos.css"> -->
-	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/animate.css' }}">
-	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/splitting.css' }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/animate.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/splitting.css') }}">
 
 	<!-- magnific popup - css include -->
-	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/magnific-popup.css' }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/magnific-popup.css') }}">
 
 	<!-- custom - css include -->
-	<link rel="stylesheet" type="text/css" href="{{ 'assets/css/style.css' }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 
 	<meta name="google-site-verification" content="jkLpJhrQV_w8SVgi1WhMDSeK_K0tdg4df0nPISDcmUk" />
 
