@@ -380,7 +380,7 @@
 			</section>
 			<!-- Video - end ================================================== -->
 
-			<!-- Services We Provide - start ================================================== -->
+			<!-- Bizning imkoniyatlar - start ================================================== -->
 			<section class="service_section sec_ptb_120 clearfix">
 				<div class="container">
 
@@ -433,7 +433,7 @@
 								</div>
 								<h3 class="item_title">Tezkor va sifatli</h3>
 								<p>
-									Mobil, Web, va boshqa ilovalarni tezkorlik bilan rejalashtirish, ishlab chiqish va ishga tushurish imkoniyati
+									Mobil, Web va boshqa ilovalarni tezkorlik bilan rejalashtirish, ishlab chiqish va ishga tushurish imkoniyati
 								</p>
 							</div>
 						</div>
@@ -459,7 +459,7 @@
 
 				</div>
 			</section>
-			<!-- Services We Provide - end ================================================== -->
+			<!-- Bizning imkoniyatlar - end ================================================== -->
 
 			<div class="container" data-aos="fade-up" data-aos-delay="100">
 				<hr class="m-0">
@@ -599,10 +599,6 @@
 										<li>Elektron pochta: <a href="mailto:javohir.fergana@gmail.com">javohir.fergana@gmail.com</a></li>
 										<li>Telefon: <a href="tel:+998905817201">+998 90 581 72 01</a></li>
 									</ul>
-								</div>
-								<div class="form_item mb-0">
-									<input type="email" placeholder="Elektron pochta">
-									<button type="submit"><i class="ti-arrow-right"></i></button>
 								</div>
 							</div>
 						</div>
