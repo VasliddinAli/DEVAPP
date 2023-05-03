@@ -259,7 +259,7 @@
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									QULAY VA ISHONCHLI DASTURIY TA'MINOTLAR ISHLAB CHIQISH
+									Qulay va ishonchli dasturiy ta'minotlar ishlab chiqish
 								</span>
 							</span>
 						</h2>
@@ -338,7 +338,7 @@
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									MENTORBRO - SIFATLI ONLAYN TA'LIM
+									MENTORBRO - Sifatli onlayn ta'lim
 								</span>
 							</span>
 						</h2>
@@ -395,7 +395,7 @@
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									QULAY VA ISHONCHLI DASTURIY TA'MINOTLAR ISHLAB CHIQISH
+									Qulay va ishonchli dasturiy ta'minotlar ishlab chiqish
 								</span>
 							</span>
 						</h2>
@@ -480,7 +480,7 @@
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									TUGALLANGAN LOYIHALAR
+									Tugallangan loyihalar
 								</span>
 							</span>
 						</h2>
