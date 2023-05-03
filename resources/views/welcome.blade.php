@@ -608,11 +608,11 @@
 							<div class="widget useful_links ul_li_block">
 								<h3 class="widget_title mb-50">Ko'proq bo'limlar</h3>
 								<ul class="clearfix">
-									<li><a href="#!">HR Boshqaruvi</a></li>
-									<li><a href="#!">To'lov</a></li>
-									<li><a href="#!">Loyiha menejeri</a></li>
-									<li><a href="#!">Qo'llab-quvvatlash</a></li>
-									<li><a href="#!">Dasturiy ta'minot</a></li>
+									<li><a href="https://t.me/devapp_uzbekistan" target="_blank">HR Boshqaruvi</a></li>
+									<li><a href="https://t.me/devapp_uzbekistan" target="_blank">To'lov</a></li>
+									<li><a href="https://t.me/devapp_uzbekistan" target="_blank">Loyiha menejeri</a></li>
+									<li><a href="https://t.me/devapp_uzbekistan" target="_blank">Qo'llab-quvvatlash</a></li>
+									<li><a href="https://t.me/devapp_uzbekistan" target="_blank">Dasturiy ta'minot</a></li>
 								</ul>
 							</div>
 						</div>
