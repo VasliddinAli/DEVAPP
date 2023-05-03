@@ -687,8 +687,8 @@
 						<div class="col-lg-4 col-md-4 col-sm-12">
 							<div class="footer_menu ul_li_right">
 								<ul class="clearfix">
-									<li><a href="#!">Foydalanish shartlari</a></li>
-									<li><a href="#!">Maxfiylik siyosati</a></li>
+									<li><a href="https://t.me/devapp_uzbekistan" target="_blank">Foydalanish shartlari</a></li>
+									<li><a href="https://t.me/devapp_uzbekistan" target="_blank">Maxfiylik siyosati</a></li>
 								</ul>
 							</div>
 						</div>
