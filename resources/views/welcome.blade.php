@@ -259,7 +259,7 @@
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									Qulay va ishonchli dasturiy ta'monotlar ishlab chiqish
+									QULAY VA ISHONCHLI DASTURIY TA'MINOTLAR ISHLAB CHIQISH
 								</span>
 							</span>
 						</h2>
@@ -338,7 +338,7 @@
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									MENTORBRO - Sifatli onlayn ta'lim
+									MENTORBRO - SIFATLI ONLAYN TA'LIM
 								</span>
 							</span>
 						</h2>
