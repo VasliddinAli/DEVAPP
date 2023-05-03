@@ -65,7 +65,7 @@
 
 					<div class="col-lg-2">
 						<div class="brand_logo">
-							<a href="#" class="brand_link">
+							<a href="/" class="brand_link">
 								<img src="{{ asset('assets/imgs/logosvg.svg') }}" alt="logo_not_found">
 								<img src="{{ asset('assets/imgs/logosvg.svg') }}" alt="logo_not_found">
 							</a>
@@ -79,7 +79,7 @@
 						<nav class="main_menu ul_li_center clearfix">
 							<ul class="clearfix">
 								<li class="active menu_item_has_child">
-									<a href="#">Asosiy</a>
+									<a href="/">Asosiy</a>
 								</li>
 
 								<li class="menu_item_has_child">
@@ -132,7 +132,7 @@
 
 				<div id="menu_list" class="menu_list ul_li_block mp_balancing mb-50 clearfix">
 					<ul class="clearfix">
-						<li class="active"><a href="#">Asosiy</a></li>
+						<li class="active"><a href="/">Asosiy</a></li>
 						<li><a href="#service_section">Xizmatlar</a></li>
 						<li><a href="#introduction_section">MentorBro</a></li>
 						<li><a href="#casestudy_section">Portfolio</a></li>
@@ -590,7 +590,7 @@
 						<div class="col-lg-4 col-md-12">
 							<div class="widget about_content">
 								<div class="brand_logo mb-30">
-									<a href="#" class="brand_link">
+									<a href="/" class="brand_link">
 										<img src="{{ asset('assets/imgs/logosvg.svg') }}" alt="logo_not_found">
 									</a>
 								</div>
@@ -625,7 +625,7 @@
 							<div class="widget useful_links ul_li_block">
 								<h3 class="widget_title mb-50">Foydali Sahifalar</h3>
 								<ul class="clearfix">
-									<li><a href="#">Asosiy</a></li>
+									<li><a href="/">Asosiy</a></li>
 									<li><a href="#service_section">Xizmatlar</a></li>
 									<li><a href="#introduction_section">MentorBro</a></li>
 									<li><a href="#casestudy_section">Portfolio</a></li>
