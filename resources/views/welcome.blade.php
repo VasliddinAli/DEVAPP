@@ -79,7 +79,7 @@
 						<nav class="main_menu ul_li_center clearfix">
 							<ul class="clearfix">
 								<li class="active menu_item_has_child">
-									<a href="#">Bosh menyu</a>
+									<a href="#">Asosiy</a>
 								</li>
 
 								<li class="menu_item_has_child">
@@ -87,15 +87,15 @@
 								</li>
 
 								<li class="menu_item_has_child">
-									<a href="#introduction_section">Platformamiz haqida</a>
+									<a href="#introduction_section">MentorBro</a>
 								</li>
 
 								<li class="menu_item_has_child">
-									<a href="#casestudy_section">Loyihalar</a>
+									<a href="#casestudy_section">Portfolio</a>
 								</li>
 
 								<li class="menu_item_has_child">
-									<a href="#testimonial_section">Fikrlar</a>
+									<a href="#testimonial_section">Mijozlar</a>
 								</li>
 							</ul>
 						</nav>
@@ -132,11 +132,11 @@
 
 				<div id="menu_list" class="menu_list ul_li_block mp_balancing mb-50 clearfix">
 					<ul class="clearfix">
-						<li class="active"><a href="#">Bosh menyu</a></li>
+						<li class="active"><a href="#">Asosiy</a></li>
 						<li><a href="#service_section">Xizmatlar</a></li>
-						<li><a href="#introduction_section">Platformamiz haqida</a></li>
-						<li><a href="#casestudy_section">Loyihalar</a></li>
-						<li><a href="#testimonial_section">Fikrlar</a></li>
+						<li><a href="#introduction_section">MentorBro</a></li>
+						<li><a href="#casestudy_section">Portfolio</a></li>
+						<li><a href="#testimonial_section">Mijozlar</a></li>
 					</ul>
 				</div>
 
@@ -182,19 +182,19 @@
 								<h1 class="title_text mb-30 c_slide_in_wrap1">
 									<span class="c_slide_in_wrap2">
 										<span class="c_slide_in_wrap3">
-											Siz izlagan barcha imkoniyatlar bizda mujassam
+											DEVAPP - Dasturiy ta'minotlar ishlab chiqish
 										</span>
 									</span>
 								</h1>
 								<p class="mb-50" data-aos="fade-up" data-aos-delay="200">
-									Biz sizga biznesingizni raqamli ob'ektiv orqali qayta tasavvur qilishingizga yordam beramiz.
+									Biz biznes va startup lar uchun premium mobil ilovalar ishlab chiqamiz!
 								</p>
 								<div class="btns_group ul_li" data-aos="fade-up" data-aos-delay="300">
 									<ul class="clearfix">
 										<li>
 											<a class="popup_video" href="https://www.youtube.com/watch?v=zXYSM1hWWW4">
 												<span class="icon"><i class="icon-play"></i></span>
-												<small>Tomosha qiling</small>
+												<small>Ko'rish</small>
 											</a>
 										</li>
 									</ul>
@@ -259,7 +259,7 @@
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									Biz Taqdim Etayotgan Xizmatlar
+									QULAY VA ISHONCHLI DASTURIY TA'MINOTLAR ISHLAB CHIQISH
 								</span>
 							</span>
 						</h2>
@@ -304,7 +304,7 @@
 									<a href="#!">Veb Saytlar</a>
 								</h3>
 								<p class="mb-0">
-									Sifatli veb-ilovalarni, veb-saytlarni ishlab chiqish
+									Sifatli veb-ilovalarni ishlab chiqish
 								</p>
 							</div>
 							<div class="service_primary" data-aos="fade-up" data-aos-delay="900">
@@ -315,7 +315,7 @@
 									<a href="#!">Boshqa Xizmatlar</a>
 								</h3>
 								<p class="mb-0">
-									Bizda Telegram botlarini istalgan usulda yaratish xizmatlari mavjud
+									Telegram bot va boshqa dasturiy ta'minotlar
 								</p>
 							</div>
 						</div>
@@ -331,14 +331,14 @@
 						<h3 class="sub_title mb-15 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<slan class="c_slide_in_wrap3">
-									Bizning platformamiz
+									BIZNING LOYIHA
 								</slan>
 							</span>
 						</h3>
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									Platformamizni tomosha qiling
+									MENTORBRO - SIFATLI ONLAYN TA'LIM
 								</span>
 							</span>
 						</h2>
@@ -388,20 +388,38 @@
 						<h3 class="sub_title mb-15 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									Bizning xizmatlar
+									BIZNING IMKONIYATLAR
 								</span>
 							</span>
 						</h3>
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									Biz Taqdim Etayotgan Xizmatlar
+									Qulay va ishonchli dasturiy ta'minotlar ishlab chiqish
 								</span>
 							</span>
 						</h2>
 					</div>
 
 					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="service_primary_2" data-aos="fade-up" data-aos-delay="700">
+								<div class="item_icon icon_green">
+									<i class="icon-ring"></i>
+									<span class="icon_deco icon_deco_1">
+										<img src="{{ asset('assets/images/shapes/shape_19.png') }}" alt="shape_not_found">
+									</span>
+									<span class="icon_deco icon_deco_2">
+										<img src="{{ asset('assets/images/shapes/shape_5.png') }}" alt="shape_not_found">
+									</span>
+								</div>
+								<h3 class="item_title">Birgalikda rivojlantirish</h3>
+								<p>
+									Mijozlarning loyihalarini ko'p yillik tajribamizga asoslangan holda rivojlantirish va optimallashtirish
+								</p>
+							</div>
+						</div>
+
 						<div class="col-lg-4 col-md-4 col-sm-12">
 							<div class="service_primary_2" data-aos="fade-up" data-aos-delay="300">
 								<div class="item_icon icon_purple">
@@ -413,9 +431,9 @@
 										<img src="{{ asset('assets/images/shapes/shape_5.png') }}" alt="shape_not_found">
 									</span>
 								</div>
-								<h3 class="item_title">Boshqaruv</h3>
+								<h3 class="item_title">Tezkor va sifatli</h3>
 								<p>
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem aspernatur perferendis non impedit?
+									Mobil, Web, va boshqa ilovalarni tezkorlik bilan rejalashtirish, ishlab chiqish va ishga tushurish imkoniyati
 								</p>
 							</div>
 						</div>
@@ -433,25 +451,7 @@
 								</div>
 								<h3 class="item_title">Qo'llab-quvvatlash</h3>
 								<p>
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem aspernatur perferendis non impedit?
-								</p>
-							</div>
-						</div>
-
-						<div class="col-lg-4 col-md-4 col-sm-12">
-							<div class="service_primary_2" data-aos="fade-up" data-aos-delay="700">
-								<div class="item_icon icon_green">
-									<i class="icon-ring"></i>
-									<span class="icon_deco icon_deco_1">
-										<img src="{{ asset('assets/images/shapes/shape_19.png') }}" alt="shape_not_found">
-									</span>
-									<span class="icon_deco icon_deco_2">
-										<img src="{{ asset('assets/images/shapes/shape_5.png') }}" alt="shape_not_found">
-									</span>
-								</div>
-								<h3 class="item_title">Hamkorlik</h3>
-								<p>
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem aspernatur perferendis non impedit?
+									Loyihalar ishga tushurilgandan so'ng 6 oy davomida tekin hizmat ko'rsatish
 								</p>
 							</div>
 						</div>
@@ -553,19 +553,19 @@
 								<h3 class="sub_title mb-15 c_slide_in_wrap1">
 									<span class="c_slide_in_wrap2">
 										<span class="c_slide_in_wrap3">
-											Fikrlar
+											Mijozlarimiz
 										</span>
 									</span>
 								</h3>
 								<h2 class="title_text mb-30 c_slide_in_wrap1">
 									<span class="c_slide_in_wrap2">
 										<span class="c_slide_in_wrap3">
-											Mijozlarimiz bildirgan fikrlar bilan tanishing
+											Bizda doimiy mamnun mijozlar mavjud
 										</span>
 									</span>
 								</h2>
 								<p class="mb-0" data-aos="fade-up" data-aos-delay="200">
-									Biz bilan hamkorlk qilgan va bizning xizmatlarimizdan foydalangan mijozlarimizning kompaniyamizga qoldirgan fikrlari.
+									Mijozlarimizning fikrlari bilan tanishing
 								</p>
 							</div>
 						</div>
@@ -625,11 +625,11 @@
 							<div class="widget useful_links ul_li_block">
 								<h3 class="widget_title mb-50">Foydali Sahifalar</h3>
 								<ul class="clearfix">
-									<li><a href="#">Bosh menyu</a></li>
+									<li><a href="#">Asosiy</a></li>
 									<li><a href="#service_section">Xizmatlar</a></li>
-									<li><a href="#introduction_section">Platformamiz haqida</a></li>
-									<li><a href="#casestudy_section">Loyihalar</a></li>
-									<li><a href="#testimonial_section">Fikrlar</a></li>
+									<li><a href="#introduction_section">MentorBro</a></li>
+									<li><a href="#casestudy_section">Portfolio</a></li>
+									<li><a href="#testimonial_section">Mijozlar</a></li>
 								</ul>
 							</div>
 						</div>
