@@ -395,7 +395,7 @@
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									Qulay va ishonchli dasturiy ta'minotlar ishlab chiqish
+									QULAY VA ISHONCHLI DASTURIY TA'MINOTLAR ISHLAB CHIQISH
 								</span>
 							</span>
 						</h2>
@@ -480,7 +480,7 @@
 						<h2 class="title_text mb-0 c_slide_in_wrap1">
 							<span class="c_slide_in_wrap2">
 								<span class="c_slide_in_wrap3">
-									Tugallangan Loyihalar
+									TUGALLANGAN LOYIHALAR
 								</span>
 							</span>
 						</h2>
