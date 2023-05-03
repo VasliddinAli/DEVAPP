@@ -78,7 +78,7 @@
 					<div class="col-lg-8">
 						<nav class="main_menu ul_li_center clearfix">
 							<ul class="clearfix">
-								<li class="active menu_item_has_child">
+								<li class="menu_item_has_child">
 									<a href="/">Asosiy</a>
 								</li>
 
@@ -132,7 +132,7 @@
 
 				<div id="menu_list" class="menu_list ul_li_block mp_balancing mb-50 clearfix">
 					<ul class="clearfix">
-						<li class="active"><a href="/">Asosiy</a></li>
+						<li><a href="/">Asosiy</a></li>
 						<li><a href="#service_section">Xizmatlar</a></li>
 						<li><a href="#introduction_section">MentorBro</a></li>
 						<li><a href="#casestudy_section">Portfolio</a></li>
