@@ -230,7 +230,7 @@
 					<div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
 						@foreach($clients as $client)
 						<div class="partner_logo col-lg-2">
-							<a href="{{ $client->link }}">
+							<a href="{{ $client->link }}" target="_blank">
 								<img src="{{ asset($client->image) }}" alt="logo_not_found">
 							</a>
 						</div>
