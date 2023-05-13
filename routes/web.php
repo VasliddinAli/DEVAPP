@@ -11,7 +11,7 @@ Route::get('/register', function () {
 });
 
 
-Route::get('/WEBSERVICEMICRO/hs/item/load_params?key=parmsLOGmp', function () {
+Route::get('WEBSERVICEMICRO/hs/item/load_params?key=parmsLOGmp', function () {
     $data = [
         "success" => true,
         "message" => "",
