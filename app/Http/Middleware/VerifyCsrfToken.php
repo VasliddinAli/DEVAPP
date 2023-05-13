@@ -12,6 +12,6 @@ class VerifyCsrfToken extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        //
+        // "WEBSERVICEMICRO/hs/item/load_params?key=parmsLOGmp"
     ];
 }
